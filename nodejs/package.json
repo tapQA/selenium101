@@ -1,0 +1,14 @@
+{
+  "name": "nodejs_example",
+  "version": "1.0.0",
+  "description": "a demo of basis selenium tests using nodejs",
+  "main": "espn_homepage.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "selenium-webdriver": "^3.0.0-beta-3"
+  }
+}
