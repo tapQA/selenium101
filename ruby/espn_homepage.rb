@@ -1,17 +1,15 @@
 require 'selenium-webdriver'
 
-RSpec.describe 'ESPN find Wild scores' do
-  before(:example) do
-    @driver = Selenium::WebDriver.for :chrome
-  end
+driver = Selenium::WebDriver.for :chrome
 
-  after(:example) do
-    @driver.quit
-  end
+# example 1
+driver.navigate.to "http://www.espn.com/college-football/"
+puts "top college football headlines"
+elements = driver.find_element(:css, 'div#news-feed-content div.headlines')
+puts elements
 
-  it 'opens the ESPN homepage' do
-    @driver.navigate.to 'http://www.espn.com'
-    # need to figure out the selector & validation here
-    expect(@driver.find_element(:link_text, 'Log in').displayed?).to be true
-  end
-end
+# example 2
+driver.navigate.to "http://www.espn.com/"
+driver.click(:link_text, 'NBA')
+
+driver.quit

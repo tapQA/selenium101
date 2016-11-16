@@ -17,3 +17,10 @@ If you have not done so already, follow these instructions to install git:
 $ git config --global user.name "your_lastname, your_firstname"
 $ git config --global user.email "your_email@blah.com"
 ```
+
+-----------------
+
+### Links to Useful Resources
+
+- [Selenium project on GitHub](https://github.com/SeleniumHQ/selenium)
+- [Wikipedia](https://en.wikipedia.org/wiki/Selenium_(software))
