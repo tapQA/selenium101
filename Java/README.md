@@ -1,8 +1,10 @@
 # Set up for testing with Java
-- Install Eclipse
+- Install Eclipse [Installation tutorial](http://www.softwaretestinghelp.com/webdriver-eclipse-installation-selenium-tutorial-9/)
 - Open Eclipse
+- create a new workspace
 - go to File -> import
-- General -> Existing Projects into Workspace
-- Select root directory 
+- Select General -> Existing Projects into Workspace
+- Click next
+- Select root directory radio button
 - browse to folder containing the project file
-- Finish 
+- Click finish 
