@@ -27,7 +27,7 @@ Ruby libraries are called gems & are incredibly easy to install for your own use
 
 In your command line, just execute something in this pattern:
 
-`gem install *gem_name*`
+`gem install gem_name`
 
 Now the library named *gem_name* is on your computer & globally accesible. Any file in your solution that needs the library just has to require it.
 

@@ -24,3 +24,8 @@ $ git config --global user.email "your_email@blah.com"
 
 - [Selenium project on GitHub](https://github.com/SeleniumHQ/selenium)
 - [Wikipedia](https://en.wikipedia.org/wiki/Selenium_(software))
+- [Chromedriver](https://sites.google.com/a/chromium.org/chromedriver/)
+- [Codeacademy](https://www.codecademy.com/)
+    + Git
+    + HTML & CSS
+    + Ruby, Python, Javascript, or Java
