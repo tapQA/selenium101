@@ -48,16 +48,9 @@ public class Main {
 				.visibilityOfElementLocated(By
 						.cssSelector("span[id='errormsg_0_Email']")));
 
+			assert errorMessage.getText().equals(
+					"Sorry, Google doesn't recognize that email.");
 		// if the error message displayed doesn't match the string throw a
-		// runTimeException
-		if (!errorMessage.getText().equals(
-				"Sorry, Google doesn't recognize that email.")) {
-			throw new RuntimeException("Error message is not correct");
-		}
-		// if the error message displayed on the page matches the string then
-		// print the message to console
-		else {
-			System.out.print(errorMessage.getText());
-		}
+
 	}
 }
