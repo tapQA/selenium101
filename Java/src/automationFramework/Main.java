@@ -47,10 +47,11 @@ public class Main {
 		WebElement element = wait.until(ExpectedConditions
 				.visibilityOfElementLocated(By
 						.cssSelector("span[id='errormsg_0_Email']")));
-
+		
+		// assert the errorMessage is correct
 			assert errorMessage.getText().equals(
 					"Sorry, Google doesn't recognize that email.");
-		// if the error message displayed doesn't match the string throw a
+		
 
 	}
 }
